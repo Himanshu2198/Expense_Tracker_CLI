@@ -13,3 +13,6 @@ A CLI-based Expense Tracker built using Python
 - JSON
 - CSV
 - File I/O
+
+### To run the project use the following command
+- python main.py
