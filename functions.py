@@ -7,7 +7,7 @@ import csv
 def addExpense(category,amount):
     expense = {
         "category": category,
-        "amount" : amount,
+        "amount" : float(amount),
         "date": datetime.now().strftime("%Y-%m-%d")
     }
     try:
@@ -120,6 +120,9 @@ def monthlySummary():
     print("-"*30)
 
     total = 0
+
+    if not summary:
+        print("No expenses found for this month.")
 
     for category,amount in summary.items():
         print(f"{category} : ₹{amount}")
