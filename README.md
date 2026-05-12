@@ -8,8 +8,12 @@ A CLI-based Expense Tracker built using Python
 - Monthly Summary
 - Export to CSV
 
-## Technologies Used
+### Technologies Used
 - Python
 - JSON
 - CSV
 - File I/O
+- Pytest
+
+###Command to run test
+- pytest -v
