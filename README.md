@@ -1,7 +1,7 @@
-#Expense Tracker
+# Expense Tracker
 A CLI-based Expense Tracker built using Python
 
-##Features
+## Features
 - Add expenses
 - View expenses
 - Delete expenses
@@ -17,3 +17,6 @@ A CLI-based Expense Tracker built using Python
 
 ###Command to run test
 - pytest -v
+
+### To run the project use the following command
+- python main.py
