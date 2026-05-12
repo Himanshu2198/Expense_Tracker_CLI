@@ -15,7 +15,7 @@ A CLI-based Expense Tracker built using Python
 - File I/O
 - Pytest
 
-###Command to run test
+### Command to run test
 - pytest -v
 
 ### To run the project use the following command
